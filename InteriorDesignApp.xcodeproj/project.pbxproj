@@ -14,6 +14,7 @@
 		D50B19A42BA02D7E00A77E7D /* InteriorDesignAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B19A32BA02D7E00A77E7D /* InteriorDesignAppTests.swift */; };
 		D50B19AE2BA02D7E00A77E7D /* InteriorDesignAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B19AD2BA02D7E00A77E7D /* InteriorDesignAppUITests.swift */; };
 		D50B19B02BA02D7E00A77E7D /* InteriorDesignAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B19AF2BA02D7E00A77E7D /* InteriorDesignAppUITestsLaunchTests.swift */; };
+		D50B19BD2BA03A2700A77E7D /* ImageLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B19BC2BA03A2700A77E7D /* ImageLoading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D50B19A92BA02D7E00A77E7D /* InteriorDesignAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteriorDesignAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50B19AD2BA02D7E00A77E7D /* InteriorDesignAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorDesignAppUITests.swift; sourceTree = "<group>"; };
 		D50B19AF2BA02D7E00A77E7D /* InteriorDesignAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorDesignAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D50B19BC2BA03A2700A77E7D /* ImageLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				D50B19922BA02D7D00A77E7D /* InteriorDesignAppApp.swift */,
+				D50B19BC2BA03A2700A77E7D /* ImageLoading.swift */,
 				D50B19942BA02D7D00A77E7D /* ContentView.swift */,
 				D50B19962BA02D7E00A77E7D /* Assets.xcassets */,
 				D50B19982BA02D7E00A77E7D /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50B19BD2BA03A2700A77E7D /* ImageLoading.swift in Sources */,
 				D50B19952BA02D7D00A77E7D /* ContentView.swift in Sources */,
 				D50B19932BA02D7D00A77E7D /* InteriorDesignAppApp.swift in Sources */,
 			);
