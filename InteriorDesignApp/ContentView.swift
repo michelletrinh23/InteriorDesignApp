@@ -19,7 +19,13 @@ struct ContentView: View {
                     .navigationTitle("welcome home.")
                     .navigationBarTitleDisplayMode(.inline)
                     .toolbar {
-                        Button ("discover") {}
+                        ToolbarItem {
+                            NavigationLink {
+                                DiscoverView()
+                            } label: {
+                                Text("discover")
+                            }
+                        }
                     }
                 
                 ImageLoading(url: URL(string: "https://i.pinimg.com/564x/9f/11/54/9f11547adf8bec975060657f1fb10ddd.jpg")!)
